@@ -1,4 +1,5 @@
 import React from "react";
+import { Counter } from "./Counter";
 import "./App.css";
 
 function App(): JSX.Element {
@@ -11,6 +12,7 @@ function App(): JSX.Element {
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
             </p>
+            <Counter label="test"></Counter>
         </div>
     );
 }
