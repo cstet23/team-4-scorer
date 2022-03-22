@@ -12,14 +12,14 @@ export const Counter = ({ label }: { label: string }) => {
                     setCount(count + 1);
                 }}
             >
-                -
+                +
             </Button>
             <Button
                 onClick={() => {
                     setCount(count - 1);
                 }}
             >
-                +
+                -
             </Button>
             <p>{count}</p>
         </div>
